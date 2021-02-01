@@ -1,0 +1,183 @@
+/* ----- max-width: 1050px ---------------- */
+@media (max-width: 1050px) {
+  .top__form-btn {
+    margin-left: 5px;
+}  
+
+.top__clients-inner {
+  flex-wrap: wrap;
+}
+
+.top__clients-img {
+  padding-top: 20px;
+}
+
+.top__clients-img + .top__clients-img {
+   padding-right: 20px;
+   padding-left: 20px;
+   margin-left: -20px
+}
+
+.about-us-bg {
+  background-image: none;
+}
+}
+
+/* ----- max-width: 850px ---------------- */
+@media (max-width: 850px) {
+  .top__img {
+    display: none;
+  }
+  
+  .top__form {
+    display: block;
+  }
+  
+  .top__form-btn {
+    margin-left: 5px;
+    margin-top: 20px;
+  }
+
+  .footer__inner {
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+}
+
+/* ----- max-width: 670px ---------------- */
+@media (max-width: 670px) {
+  .header__inner {
+    display: block;
+  }
+
+  .logo {
+    z-index: 10;
+    position: relative;
+    top: 25px;
+  }
+
+  .menu__btn {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 25px;
+    z-index: 10;
+  }
+
+  .menu__list {
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #ffffff;
+    text-align: center;
+    transition: all .5s;
+    transform: translateY(-300%);
+  }
+
+  .menu__list.menu__list--active {
+    transform: translateY(0);
+    transition: all .5s;
+    margin-top: 58px;
+  }
+
+  .menu__list-link {
+    display: block;
+    padding: 10px 0;
+  }
+
+  .menu__list-item + .menu__list-item {
+    margin-left: 0;
+  }
+
+  .menu__list-link {
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .top {
+    padding-top: 10px;
+    padding-bottom: 100px;
+  }
+
+  .top__inner {
+    padding-right: 10px;
+  }
+   
+  .top__inners {
+    display: inline-block;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .top__title {
+    font-size: 40px;
+    line-height: 42px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .top__form-input {
+    width: 100%;
+  }
+
+  h2 {
+    font-size: 30px;
+    line-height: 50px;
+  }
+
+  .slider__item-title {
+    line-height: 48px;
+    padding-bottom: 50px;
+  }
+
+  .slider__item-img {
+    top: 0;
+  }
+
+  .about-us__inner {
+    padding: 70px 0;
+  }
+
+  .diffrent-bg {
+    background-image: none;
+  }
+
+  .slick-dots {
+    margin: 0 auto;
+  }
+
+  .bootom__form input[type="email"] {
+    width: 100%;
+  }
+
+  .bootom__form-btn {
+    margin-top: 50px;
+  }
+
+  .social-links {
+    border: none;
+  }
+
+  .footer__inner {
+    margin: 0 auto;
+    text-align: center;
+  } 
+
+  .footer__menu {
+    padding-top: 30px;
+  }
+
+  .footer__menu__list {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+  }
+
+  .social-links {
+    padding-top: 30px;
+    margin: 0 auto;
+  }
+}

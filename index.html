@@ -1,0 +1,373 @@
+<!-- 
+Сайт свёрстан по макету "TankAPP";
+Автор вёрстки: Андрей Овчаров;
+Дата вёрстки: 31.01.2021;
+E-mail: datoshcode@gmail.com.
+Все авторские права на графический макет, принадлежат его автору. 
+Сайт сверстан с ознакомительной целью, без получения коммерческой выгоды.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TankAPP</title>
+
+    <!-- Внешние веб-шрифты:
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Open Sans', sans-serif; -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Сброс стилей браузера-->
+    <link rel="stylesheet" href="css/reset+.css" />
+
+    <!-- Стили для слайдера -->
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/jquery.fancybox.css" />
+
+    <!-- Основные стили -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Стили для адаптива сайта -->
+    <link rel="stylesheet" href="css/media.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <!-- Блок с вложенными элементами -->
+        <div class="header__inner">
+          <!-- Логотип сайта -->
+          <a class="logo" href="#">
+            <img src="img/top-header/logo.png" alt="logo" class="logo__img" />
+          </a>
+
+          <!-- Навигационное меню -->
+          <nav class="menu">
+            <div class="menu__btn">
+              <span></span>
+            </div>
+            <ul class="menu__list">
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">How it works </a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">About Us</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">Contact Us</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">Blog</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <!-- Верхний банер сайта -->
+    <section class="top">
+      <div class="container">
+        <div class="top__inners">
+          <div class="top__inner">
+            <h1 class="top__title">Track your next fuel shops</h1>
+            <p class="top__text">
+              Monitor and Alert on all petrol bunks near to you
+            </p>
+
+            <!-- Форма регистрации -->
+            <form class="top__form" action="#" method="#">
+              <p class="top__form-title">
+                Signup For <span class="selected-text">free</span>
+              </p>
+              <input
+                class="top__form-input"
+                type="email"
+                placeholder="Your E-mail  Adress"
+              />
+              <button class="top__form-btn" type="submit">Signup</button>
+            </form>
+          </div>
+          <img
+            class="top__img"
+            src="img/top-header/top-hand-with-iphone.png"
+            alt="Hand"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Логотипы наших клиентов -->
+    <section class="top__clients">
+      <div class="container">
+        <div class="top__clients-inner">
+          <img
+            class="top__clients-img"
+            src="img/top-header/evernote-logo.png"
+            alt="Evernote logo"
+          />
+          <img
+            class="top__clients-img"
+            src="img/top-header/microsoft-logo.png"
+            alt="Microsoft logo"
+          />
+          <img
+            class="top__clients-img"
+            src="img/top-header/google-logo.png"
+            alt="Google logo"
+          />
+          <img
+            class="top__clients-img"
+            src="img/top-header/sony.png"
+            alt="Sony logo"
+          />
+          <img
+            class="top__clients-img"
+            src="img/top-header/firefox-logo.png"
+            alt="Firefox logo"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Раздел "Why TankApp?" -->
+    <section class="about-us">
+      <div class="about-us-bg">
+        <div class="container">
+          <h2 class="about-us__title">WHY Tank App ?</h2>
+          <!-- Преимущества компании -->
+          <div class="about-us__inner">
+            <!-- Преимущество 1 -->
+            <div class="about-us__item">
+              <img
+                class="about-us__item-img"
+                src="img/section_1/icon-1.png"
+                alt="icon"
+              />
+              <h4 class="about-us__item-title">Reliable and Secure Platform</h4>
+              <p class="about-us__item-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea com
+              </p>
+            </div>
+
+            <!-- Преимущество 2 -->
+            <div class="about-us__item">
+              <img
+                class="about-us__item-img"
+                src="img/section_1/icon-2.png"
+                alt="icon"
+              />
+              <h4 class="about-us__item-title">Reliable and Secure Platform</h4>
+              <p class="about-us__item-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea com
+              </p>
+            </div>
+
+            <!-- Преимущество 3 -->
+            <div class="about-us__item">
+              <img
+                class="about-us__item-img"
+                src="img/section_1/icon-3.png"
+                alt="icon"
+              />
+              <h4 class="about-us__item-title">Reliable and Secure Platform</h4>
+              <p class="about-us__item-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea com
+              </p>
+            </div>
+
+            <!-- Преимущество 4 -->
+            <div class="about-us__item">
+              <img
+                class="about-us__item-img"
+                src="img/section_1/icon-4.png"
+                alt="icon"
+              />
+              <h4 class="about-us__item-title">Reliable and Secure Platform</h4>
+              <p class="about-us__item-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea com
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Раздел "Why tankapp diffrent? -->
+    <section class="diffrent">
+      <!-- Фоновое изображение -->
+      <div class="diffrent-bg">
+        <div class="container">
+          <!-- Заголовок раздела -->
+          <h2 class="diffrent__title">Why tankapp diffrent ?</h2>
+
+          <!-- Слайдер begin-code -->
+          <div class="slider">
+            <!-- Слайд 1 -->
+            <div class="slider__item">
+              <img
+                class="slider__item-img"
+                src="img/section-2/icon-1.png"
+                alt="icon-page"
+              />
+              <h3 class="slider__item-title">Works on any device anyware</h3>
+              <p class="slider__item-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea com Neque porro quisquam est, qui dolorem
+                ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia
+                non numquam eius modi tempora incidunt ut
+              </p>
+            </div>
+
+            <!-- Слайд 2 -->
+            <div class="slider__item">
+              <img
+                class="slider__item-img"
+                src="img/section-2/icon-1.png"
+                alt="icon-page"
+              />
+              <h3 class="slider__item-title">Works on any device anyware</h3>
+              <p class="slider__item-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea com Neque porro quisquam est, qui dolorem
+                ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia
+                non numquam eius modi tempora incidunt ut
+              </p>
+            </div>
+
+            <!-- Слайд 3 -->
+            <div class="slider__item">
+              <img
+                class="slider__item-img"
+                src="img/section-2/icon-1.png"
+                alt="icon-page"
+              />
+              <h3 class="slider__item-title">Works on any device anyware</h3>
+              <p class="slider__item-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea com Neque porro quisquam est, qui dolorem
+                ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia
+                non numquam eius modi tempora incidunt ut
+              </p>
+            </div>
+
+            <!-- Слайд 4 -->
+            <div class="slider__item">
+              <img
+                class="slider__item-img"
+                src="img/section-2/icon-1.png"
+                alt="icon-page"
+              />
+              <h3 class="slider__item-title">Works on any device anyware</h3>
+              <p class="slider__item-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea com Neque porro quisquam est, qui dolorem
+                ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia
+                non numquam eius modi tempora incidunt ut
+              </p>
+            </div>
+          </div>
+          <!-- Слайдер end-code -->
+        </div>
+      </div>
+    </section>
+    <!-- Раздел "Save time & gain agility-->
+    <section class="save-time">
+      <div class="container">
+        <h2 class="save-time__title">Save time & gain agility</h2>
+        <p class="save-time__text">
+          Using our cloud Monitoring Services So you can Focous on Runing Yours
+          Better
+        </p>
+        <form class="bootom__form" action="#" method="#">
+          <input
+            class="bootom__form-input"
+            type="email"
+            placeholder="Your E-mail  Adress"
+          />
+          <button class="bootom__form-btn" type="submit">Signup</button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <a class="footer__logo" href="#">
+            <img
+              class="footer__logo-img"
+              src="img/footer/footer-logo.png"
+              alt="footer logo"
+            />
+          </a>
+          <!-- Навигационное меню подвала сайта -->
+          <nav class="footer__menu">
+            <ul class="footer__menu__list">
+              <li class="footer__menu__list-item">
+                <a class="footer__menu__list-link" href="#">Home</a>
+              </li>
+              <li class="footer__menu__list-item">
+                <a class="footer__menu__list-link" href="#">About Us</a>
+              </li>
+              <li class="footer__menu__list-item">
+                <a class="footer__menu__list-link" href="#">How it works</a>
+              </li>
+              <li class="footer__menu__list-item">
+                <a class="footer__menu__list-link" href="#">Contact</a>
+              </li>
+              <li class="footer__menu__list-item">
+                <a class="footer__menu__list-link" href="#">Blog</a>
+              </li>
+            </ul>
+          </nav>
+
+          <!-- Блок ссылок на популярные социальные сети -->
+          <div class="social-links">
+            <a href="#" class="social-links__icon">
+              <img src="img/twitter.png" alt="twitter" />
+            </a>
+
+            <a href="#" class="social-links__icon">
+              <img src="img/facebook.png" alt="facebook" />
+            </a>
+            <a href="#" class="social-links__icon">
+              <img src="img/google-plus.png" alt="google+" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Скрипты для сайта -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
